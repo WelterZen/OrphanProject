@@ -34,7 +34,22 @@ and open the template in the editor.
                <li class='last'><a href='#'><span>TBD</span></a></li>
             </ul>
         </div>
-        
+        <article class="Main-Article">
+            <h1>Orphanages</h1>
+            <ul class="OrphanageLocations">
+                <li>
+                    <h3>President Kruger Children's Home</h3>
+                    Address: 728 31st Ave, Villieria, Pretoria, 0186
+                    <img src="images/President Kruger Children's Home.png"
+                </li>
+                <li>
+                    <h3>House Gracia Child & Youth Care Centre</h3>
+                    Address: 367 Burger St, Pretoria North, Pretoria, 0116
+                    Phone: 012 546 6681
+                    <img src="images/House Gracia Child & Youth Care Centre.png">
+                </li>
+            </ul>
+        </article>
         <?php
         
         ?>

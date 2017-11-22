@@ -114,3 +114,23 @@
 #cssmenu > ul ul li a:active {
   background: url(../images/menu-bg.png) repeat;
 }
+
+.Main-Article{
+    border: solid gray 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: lavender;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.OrphanageLocations{
+    list-style: none;
+}
+
+.OrphanageLocations li{
+    border:solid gray 1px;
+    padding: 5px;
+    
+}

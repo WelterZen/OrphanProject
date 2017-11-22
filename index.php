@@ -34,7 +34,12 @@ and open the template in the editor.
                <li class='last'><a href='#'><span>TBD</span></a></li>
             </ul>
         </div>
-        
+        <article class="Main-Article">
+            <h1>Welcome to...</h1>
+            <p>dcacsdcsdcdscdscsdcsdcsdcsdcdscfvdbnghnbfg fascsac scd dvdcscsac acsc acdc ad
+            vsvdfvdfvdfv fvf  fvsvcsd fdvsvd vfvrvf frs </p>
+            <img src="images/front.jpg">
+        </article>
         <?php
         
         ?>

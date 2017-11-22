@@ -34,7 +34,10 @@ and open the template in the editor.
                <li class='last'><a href='#'><span>TBD</span></a></li>
             </ul>
         </div>
-        
+        <article class="Main-Article">
+            <h1>Our Mission</h1>
+            <p>We do this and that</p>
+        </article>
         <?php
         
         ?>

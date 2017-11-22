@@ -18,14 +18,14 @@ and open the template in the editor.
         <div id='cssmenu'>
             <ul>
                 <li><a href='index.php'><span>Home</span></a></li>
-                <li class='has-sub active'><a href='Orphanage.php'><span>Orphanage</span></a>
+                <li class='has-sub'><a href='Orphanage.php'><span>Orphanage</span></a>
                   <ul>
                       <li><a href='OrphanageLocation.php'><span>Locations</span></a></li>
                       <li><a href='OrphanageChildren.php'><span>Children</span></a></li>
                      <li class='last'><a href='#'><span>TBD</span></a></li>
                   </ul>
                </li>
-               <li class='has-sub'><a href='About.php'><span>About</span></a>
+               <li class='has-sub active'><a href='About.php'><span>About</span></a>
                   <ul>
                       <li><a href='AboutCompany.php'><span>Company</span></a></li>
                      <li class='last'><a href='Contact.php'><span>Contact</span></a></li>
@@ -34,7 +34,28 @@ and open the template in the editor.
                <li class='last'><a href='#'><span>TBD</span></a></li>
             </ul>
         </div>
-        
+        <article class="Main-Article">
+            <h1>Website Managment</h1>
+            
+            <ul>
+                <li>
+                    <h2>Name Surname 01</h2>
+                    <ul>
+                        <li>Email:   </li>
+                        <li>Phone:   </li>
+                        <li>Fax:   </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Name Surname 02</h2>
+                    <ul>
+                        <li>Email:   </li>
+                        <li>Phone:   </li>
+                        <li>Fax:   </li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
         <?php
         
         ?>
