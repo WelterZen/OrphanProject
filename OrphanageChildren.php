@@ -46,6 +46,7 @@ and open the template in the editor.
                 </li>
             </ul>
         </article>
+        
         <?php
         
         ?>

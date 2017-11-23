@@ -20,7 +20,8 @@ function Navbar($activTabNo) {
                </li>
                <li class='last'><a href='Gallary.php'><span>Gallary</span></a></li>
             </ul>
-        </div>";
+        </div>
+        ";
             break;
         case 2:
             echo "<div id='cssmenu'>
@@ -41,7 +42,13 @@ function Navbar($activTabNo) {
                </li>
                <li class='last'><a href='Gallary.php'><span>Gallary</span></a></li>
             </ul>
-        </div>";
+        </div>
+        <footer class='footBar'>
+            <ul>
+                <li><img src='images/twitter-icon.png'></li>
+                <li><img src='images/facebook-icon.png'></li>
+            </ul>
+        </footer>";
             break;
         case 3:
             echo "<div id='cssmenu'>
@@ -62,7 +69,13 @@ function Navbar($activTabNo) {
                </li>
                <li class='last'><a href='Gallary.php'><span>Gallary</span></a></li>
             </ul>
-        </div>";
+        </div>
+        <footer class='footBar'>
+            <ul>
+                <li><img src='images/twitter-icon.png'></li>
+                <li><img src='images/facebook-icon.png'></li>
+            </ul>
+        </footer>";
             break;
         case 4:
             echo "<div id='cssmenu'>
@@ -83,7 +96,13 @@ function Navbar($activTabNo) {
                </li>
                <li class='last active'><a href='Gallary.php'><span>Gallary</span></a></li>
             </ul>
-        </div>";
+        </div>
+        <footer class='footBar'>
+            <ul>
+                <li><img src='images/twitter-icon.png'></li>
+                <li><img src='images/facebook-icon.png'></li>
+            </ul>
+        </footer>";
             break;
         default:
             break;

@@ -32,6 +32,12 @@ and open the template in the editor.
             </div>
             
         </article>
+        <footer class='footBar'>
+            <ul>
+                <li><img src='images/twitter-icon.png'></li>
+                <li><img src='images/facebook-icon.png'></li>
+            </ul>
+        </footer>
         <?php
         
         ?>
