@@ -15,25 +15,10 @@ and open the template in the editor.
         <title>OrphanageFinder</title>
     </head>
     <body>
-        <div id='cssmenu'>
-            <ul>
-                <li ><a href='index.php'><span>Home</span></a></li>
-                <li class='has-sub'><a href='Orphanage.php'><span>Orphanage</span></a>
-                  <ul>
-                      <li><a href='OrphanageLocation.php'><span>Locations</span></a></li>
-                      <li><a href='OrphanageChildren.php'><span>Children</span></a></li>
-                     <li class='last'><a href='#'><span>TBD</span></a></li>
-                  </ul>
-               </li>
-               <li class='has-sub active'><a href='About.php'><span>About</span></a>
-                  <ul>
-                      <li><a href='AboutCompany.php'><span>Company</span></a></li>
-                     <li class='last'><a href='Contact.php'><span>Contact</span></a></li>
-                  </ul>
-               </li>
-               <li class='last'><a href='#'><span>TBD</span></a></li>
-            </ul>
-        </div>
+        <?php
+        include './NavBar.php';
+        Navbar(3);
+        ?>
         <article class="Main-Article">
             <h1>Belgium Campus</h1>
             <p>We are students trying to make a difference.....</p>

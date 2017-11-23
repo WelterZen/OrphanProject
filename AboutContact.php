@@ -15,44 +15,39 @@ and open the template in the editor.
         <title>OrphanageFinder</title>
     </head>
     <body>
-        <div id='cssmenu'>
-            <ul>
-                <li ><a href='index.php'><span>Home</span></a></li>
-                <li class='has-sub'><a href='Orphanage.php'><span>Orphanage</span></a>
-                  <ul>
-                      <li><a href='OrphanageLocation.php'><span>Locations</span></a></li>
-                      <li><a href='OrphanageChildren.php'><span>Children</span></a></li>
-                     <li class='last'><a href='#'><span>TBD</span></a></li>
-                  </ul>
-               </li>
-               <li class='has-sub active' ><a href='About.php'><span>About</span></a>
-                  <ul>
-                      <li><a href='AboutCompany.php'><span>Company</span></a></li>
-                     <li class='last'><a href='Contact.php'><span>Contact</span></a></li>
-                  </ul>
-               </li>
-               <li class='last'><a href='#'><span>TBD</span></a></li>
-            </ul>
-        </div>
+        <?php
+        include './NavBar.php';
+        Navbar(3);
+        ?>
         <article class="Main-Article">
             <h1>Website Managment</h1>
             
             <ul>
                 <li>
-                    <h2>Name Surname 01</h2>
+                    <li><div class="container">
+                            <div class="Text-over-Image">
+                                <h4>Name Surname 01</h4>
                     <ul>
                         <li>Email:   </li>
                         <li>Phone:   </li>
                         <li>Fax:   </li>
                     </ul>
+                            </div>
+                    </div>
+                    
                 </li>
-                <li>
-                    <h2>Name Surname 02</h2>
+                    <li><div class="container">
+                            <div class="Text-over-Image">
+                                <h4>Name Surname 02</h4>
                     <ul>
                         <li>Email:   </li>
                         <li>Phone:   </li>
                         <li>Fax:   </li>
                     </ul>
+                            </div>
+                    </div>
+                        
+                    
                 </li>
             </ul>
         </article>

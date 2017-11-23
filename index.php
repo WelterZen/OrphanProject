@@ -15,30 +15,22 @@ and open the template in the editor.
         <title>OrphanageFinder</title>
     </head>
     <body>
-        <div id='cssmenu'>
-            <ul>
-                <li class='active'><a href='index.php'><span>Home</span></a></li>
-                <li class='has-sub'><a href='Orphanage.php'><span>Orphanage</span></a>
-                  <ul>
-                      <li><a href='OrphanageLocation.php'><span>Locations</span></a></li>
-                      <li><a href='OrphanageChildren.php'><span>Children</span></a></li>
-                     <li class='last'><a href='#'><span>TBD</span></a></li>
-                  </ul>
-               </li>
-               <li class='has-sub'><a href='About.php'><span>About</span></a>
-                  <ul>
-                      <li><a href='AboutCompany.php'><span>Company</span></a></li>
-                     <li class='last'><a href='Contact.php'><span>Contact</span></a></li>
-                  </ul>
-               </li>
-               <li class='last'><a href='#'><span>TBD</span></a></li>
-            </ul>
-        </div>
+        <?php
+        include './NavBar.php';
+        Navbar(1);
+        ?>
         <article class="Main-Article">
-            <h1>Welcome to...</h1>
-            <p>dcacsdcsdcdscdscsdcsdcsdcsdcdscfvdbnghnbfg fascsac scd dvdcscsac acsc acdc ad
-            vsvdfvdfvdfv fvf  fvsvcsd fdvsvd vfvrvf frs </p>
-            <img src="images/front.jpg">
+            <div class="container">
+                <img src="images/front.jpg">
+                <div class="Text-over-Image">
+                    <h1>Welcome to our website</h1>
+                    <p>Students of Belgium Campus created this website for our Academic 
+                    Leadership project. The project was aimed at bettering the 
+                    ever-growing population growth. We concluded creating an easier 
+                    way for people to adopt from various orphanages.</p>
+                </div>
+            </div>
+            
         </article>
         <?php
         

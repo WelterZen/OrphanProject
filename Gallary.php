@@ -17,32 +17,28 @@ and open the template in the editor.
     <body>
         <?php
         include './NavBar.php';
-        Navbar(2);
+        Navbar(3);
         ?>
+        
         <article class="Main-Article">
-            <h1>Website Managment</h1>
-            
-            <ul>
-                <li>
-                    <h2>Name Surname 01</h2>
-                    <ul>
-                        <li>Email:   </li>
-                        <li>Phone:   </li>
-                        <li>Fax:   </li>
-                    </ul>
+            <h1>Orphanages</h1>
+            <ul class="OrphanageLocations">
+                <li><div class="container">
+                    <div class="Text-over-Image">
+                        
+                    </div>
+                        <img src="images/President Kruger Children's Home.png">
+                    </div>
                 </li>
-                <li>
-                    <h2>Name Surname 02</h2>
-                    <ul>
-                        <li>Email:   </li>
-                        <li>Phone:   </li>
-                        <li>Fax:   </li>
-                    </ul>
+                <li><div class="container">
+                        <div class="Text-over-Image">
+                            
+                        </div>
+                        <img src="images/House Gracia Child & Youth Care Centre.png">
+                    </div>
                 </li>
             </ul>
         </article>
-        <?php
-        
-        ?>
+       
     </body>
 </html>

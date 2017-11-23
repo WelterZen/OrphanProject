@@ -123,14 +123,31 @@
     padding-bottom: 5%;
     padding-left: 5%;
     padding-right: 5%;
+    list-style: none;
+}
+.Main-Article li{
+    list-style: none;
+}
+.Main-Article li li{
+    list-style: none;
 }
 
 .OrphanageLocations{
     list-style: none;
 }
 
-.OrphanageLocations li{
-    border:solid gray 1px;
-    padding: 5px;
-    
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.Text-over-Image{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    width: 40%;
+    left: 5%;
+    top: 40px;
+    padding: 8px;
+    border: solid beige 0px;
+    border-radius: 2px;
 }
