@@ -20,8 +20,31 @@ and open the template in the editor.
         Navbar(2);
         ?>
         <article class="Main-Article">
-            <h1></h1>
-            <p></p>
+            <h1>Chilldren</h1>
+            <ul class="OrphanageLocations">
+                <li><div class="container">
+                    <div class="Text-over-Image">
+                        <ul>
+                            <li>Name: </li>
+                            <li>Surname: </li>
+                            <li>About me: </li>
+                        </ul>
+                    </div>
+                        <img src="">
+                    </div>
+                </li>
+                <li><div class="container">
+                        <div class="Text-over-Image">
+                            <ul>
+                                <li>Name: </li>
+                                <li>Surname: </li>
+                                <li>About me: </li>
+                            </ul>
+                        </div>
+                        <img src="">
+                    </div>
+                </li>
+            </ul>
         </article>
         <?php
         

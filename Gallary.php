@@ -21,7 +21,7 @@ and open the template in the editor.
         ?>
         
         <article class="Main-Article">
-            <h1>Orphanages</h1>
+            <h1>Gallary</h1>
             <ul class="OrphanageLocations">
                 <li><div class="container">
                     <div class="Text-over-Image">
